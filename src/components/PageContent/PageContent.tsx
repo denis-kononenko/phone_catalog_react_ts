@@ -115,6 +115,7 @@ export const PageContent: React.FC<Props> = ({
 
           <div className="PageContent__params">
             <div className="PageContent__sort-param">
+              { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
               <label
                 htmlFor="sortParams"
                 className="PageContent__label"
@@ -135,6 +136,7 @@ export const PageContent: React.FC<Props> = ({
             </div>
 
             <div className="PageContent__items-number">
+              { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
               <label
                 htmlFor="itemsNumber"
                 className="PageContent__label"
